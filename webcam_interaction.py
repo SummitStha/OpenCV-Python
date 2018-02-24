@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)  # to use the 1st webcam in the system
 
 # Define the codec and create VideoWriter object
 fourcc = cv2.cv.CV_FOURCC(*'XVID')   # codec of the video we want (i.e. XVID for this one)
-out = cv2.VideoWriter('output.avi', fourcc, 20.0, (640,480))  # output will be the (filename, codec, number of frames per second (fps), frame size)
+out = cv2.VideoWriter('output/output.avi', fourcc, 20.0, (640,480))  # output will be the (filename, codec, number of frames per second (fps), frame size)
 
 print cap.isOpened() # checks whether cap has initialized the capture
 #cap.open()	# if cap is not open then use this method to open the cap

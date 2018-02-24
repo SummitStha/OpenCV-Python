@@ -4,7 +4,7 @@ import cv2
 # Create a black image
 # img = np.zeros((512,512,3), np.uint8)
 
-img = cv2.imread('new.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('img/new.jpg', cv2.IMREAD_COLOR)
 
 # for line
 cv2.line(img, (0,0), (150,150), (255,255,255), 15)	# (filename, startpoint, endpoint, color, thickness)

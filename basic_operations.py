@@ -1,7 +1,7 @@
 import numpy as np 
 import cv2
 
-img = cv2.imread('new.jpg', cv2.IMREAD_COLOR)
+img = cv2.imread('img/new.jpg', cv2.IMREAD_COLOR)
 
 img[70,85] = [0,0,255]
 px = img[70,85]
